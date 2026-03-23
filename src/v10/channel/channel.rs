@@ -21,6 +21,6 @@ pub enum ChannelType {
 
 #[derive(Serialize, Deserialize)]
 pub struct Channel {
-    pub id: i64,
+    pub id: String,
     pub r#type: ChannelType,
 }

@@ -1,7 +1,7 @@
 use serde::{Deserialize, Serialize};
 
 pub struct Message {
-    pub id: i64,
+    pub id: String,
     pub channel_id: i64,
     pub content: String,
     pub author_id: i64,
