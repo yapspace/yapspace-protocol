@@ -75,3 +75,14 @@ impl Default for GetChannelMessages {
         }
     }
 }
+
+#[derive(Serialize, Deserialize)]
+pub struct GetDmMessages {
+    pub limit: u32,
+}
+
+impl Default for GetDmMessages {
+    fn default() -> Self {
+        Self { limit: 50 }
+    }
+}
