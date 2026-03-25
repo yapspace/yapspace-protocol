@@ -18,7 +18,7 @@ pub struct WebhookAuthor {
 #[derive(Serialize, Deserialize)]
 pub struct Message {
     pub id: String,
-    pub channel_id: i64,
+    pub channel_id: String,
     pub author: MessageAuthor,
     pub content: String,
     pub timestamp: String,
